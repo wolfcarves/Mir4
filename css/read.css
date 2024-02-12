@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(91, 89, 89);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: min(95%, 55rem);
+    color: rgba(255, 255, 255, 0.974);
+    margin-inline: auto;
+    padding-inline: clamp(0.5rem, 5vw, 2rem);
+    padding-block: clamp(0.5rem, 5vw, 2rem);
+}
+
+
+.back-icon {
+    font-size: clamp(0.01em, 7vw, 2em);
+}
+
+.logo {
+    font-size: clamp(0.01em, 7vw, 1em);
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.section {
+    padding-block: clamp(0.5rem, 6vw, 3rem);
+}
+
+.title {
+    margin: 0;
+    font-size: clamp(0.01em, 7vw, 3em);
+}
+
+.description {
+    font-size: clamp(0.01em, 3vw, 1em);
+}
+
+.media-container {
+    margin-top: 5%;
+    max-height: max-content;
+}
+
+.video {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.email {
+    color: rgb(206, 217, 246);
+}
